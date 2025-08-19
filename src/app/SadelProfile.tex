@@ -1,0 +1,333 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  COMPANY PROFILE STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Sadel Technologies} \\ \vspace{1pt}
+    \textbf{\large AI-Driven Full Stack Development \& Cloud Solutions} \\ \vspace{5pt}
+    \small \href{mailto:info@sadeltech.com}{\underline{info@sadeltech.com}} $|$ 
+    \href{https://sadeltech.com}{\underline{www.sadeltech.com}} $|$
+    \href{https://github.com/sadeltech}{\underline{github.com/sadeltech}} $|$
+    Lagos, Nigeria
+\end{center}
+
+%-----------COMPANY OVERVIEW-----------
+\section{Company Overview}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+        \textbf{Sadel Technologies} is a pioneering technology solutions provider specializing in \textbf{AI-driven full stack development}, \textbf{cloud-native architecture}, and \textbf{IoT integration}. We deliver enterprise-grade, scalable digital solutions that transform business operations across healthcare, fintech, e-commerce, and utility sectors. With a proven track record of serving 100K+ end users and maintaining 99.9\% system uptime, we combine cutting-edge artificial intelligence with modern development frameworks to create innovative solutions that drive measurable business growth and digital transformation.
+    }}
+\end{itemize}
+
+%-----------VISION STATEMENT-----------
+\section{Vision Statement}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+        To be the leading African technology company that revolutionizes industries through AI-powered solutions, cloud architecture, and innovative software engineering, setting the global standard for intelligent digital transformation.
+    }}
+\end{itemize}
+
+%-----------MISSION STATEMENT-----------
+\section{Mission Statement}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+        To empower businesses and institutions with intelligent, scalable technology solutions by leveraging artificial intelligence, cloud computing, and modern software engineering practices. We are committed to delivering exceptional value through innovation, excellence, and sustainable digital transformation that improves lives and drives economic growth across Africa and beyond.
+    }}
+\end{itemize}
+
+%-----------CORE SERVICES-----------
+\section{Core Services}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {AI \& Machine Learning Solutions}{}{Advanced Intelligence Integration}{}
+      \resumeItemListStart
+        \resumeItem{AI-powered diagnostic assistance and predictive analytics for healthcare systems}
+        \resumeItem{Machine learning models for demand forecasting and resource optimization}
+        \resumeItem{Natural Language Processing and Computer Vision applications}
+        \resumeItem{Custom AI model development using TensorFlow and OpenAI API}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Cloud-Native Architecture \& DevOps}{}{Scalable Infrastructure Solutions}{}
+      \resumeItemListStart
+        \resumeItem{Microservices architecture design and implementation}
+        \resumeItem{Docker containerization and Kubernetes orchestration}
+        \resumeItem{AWS, Azure, and Google Cloud Platform deployment}
+        \resumeItem{Infrastructure as Code using Terraform and automated CI/CD pipelines}
+        \resumeItem{Real-time monitoring with ELK stack (Elasticsearch, Logstash, Kibana)}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Full Stack Web Development}{}{Modern Web Applications}{}
+      \resumeItemListStart
+        \resumeItem{Frontend: React.js, Next.js, Vue.js with TypeScript}
+        \resumeItem{Backend: Node.js, Python Django, Laravel PHP}
+        \resumeItem{Progressive Web Apps (PWA) and Server-Side Rendering}
+        \resumeItem{RESTful APIs and GraphQL integration}
+        \resumeItem{Responsive UI/UX with Chakra UI, TailwindCSS, and Styled Components}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Mobile \& IoT Development}{}{Cross-Platform Solutions}{}
+      \resumeItemListStart
+        \resumeItem{React Native cross-platform mobile applications}
+        \resumeItem{IoT integration with Arduino and embedded systems programming (C++)}
+        \resumeItem{Real-time location services and hardware communication}
+        \resumeItem{Mobile-first design with native performance optimization}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Enterprise Solutions \& Integration}{}{Business Process Automation}{}
+      \resumeItemListStart
+        \resumeItem{Microsoft Power Platform (Power Apps, Power Automate, SharePoint)}
+        \resumeItem{Enterprise resource planning (ERP) and customer relationship management (CRM)}
+        \resumeItem{Azure Active Directory integration and enterprise authentication}
+        \resumeItem{Legacy system modernization and digital transformation}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------SMART BUILDING & IOT SOLUTIONS-----------
+\section{Smart Building \& IoT Solutions}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Energy Management}{}{Intelligent Resource Optimization}{}
+      \resumeItemListStart
+        \resumeItem{Smart Lighting Systems: Motion sensors, daylight sensors, and programmable LED lighting reduce energy consumption.}
+        \resumeItem{Automated HVAC (Heating, Ventilation, Air Conditioning): Thermostats like Nest or Ecobee optimize temperature settings based on occupancy and weather.}
+        \resumeItem{Energy Monitoring \& Management Systems: Real-time tracking of energy use and peak load analysis via IoT platforms.}
+        \resumeItem{Solar Panels with Smart Inverters: Integrated solar solutions that optimize energy use and feed surplus back to the grid.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------AI INNOVATION PROJECTS-----------
+\section{AI Innovation Projects}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {AI-Powered Waste Classification using Llava}{}{Computer Vision \& Environmental Solutions}{}
+      \resumeItemListStart
+        \resumeItem{Developed an AI model using Llava (a multimodal LLM), fine-tuned and trained for image recognition}
+        \resumeItem{Integrated computer vision tools in Python to analyse images and classify different types of waste}
+        \resumeItem{Applied prompt engineering to enhance model accuracy in recognising waste categories and determining the correct disposal system}
+        \resumeItem{Improved waste sorting efficiency, demonstrating practical applications of LLMs and computer vision}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {AI-Powered Voice Agent for Restaurant Call Handling}{}{Conversational AI \& Voice Technology}{}
+      \resumeItemListStart
+        \resumeItem{Developed an intelligent voice-based AI chatbot using VAPI to handle incoming restaurant calls, providing real-time responses to customer inquiries}
+        \resumeItem{Integrated speech recognition (ASR) and text-to-speech (TTS) with LLMs to enable natural, human-like conversations over phone calls}
+        \resumeItem{Designed custom prompt engineering workflows to improve conversational flow, reduce response errors, and handle edge cases}
+        \resumeItem{Implemented logic for order intent detection, fallback handling, and escalation to human staff when necessary}
+        \resumeItem{Enhanced customer service efficiency and reduced missed calls during peak hours in the food service industry}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Open Data Platform Development}{}{Data Collaboration \& Secure Access}{}
+      \resumeItemListStart
+        \resumeItem{Engineered the development of a cutting-edge open data platform, enabling seamless collaboration and secure access control}
+        \resumeItem{Designed and maintained robust backend services using modern frameworks and best practices for API development}
+        \resumeItem{Implemented data modeling and asynchronous task processing for efficient data sharing among research professionals}
+        \resumeItem{Managed and optimized cloud infrastructure on AWS, ensuring high availability, security, and scalability}
+        \resumeItem{Implemented CI/CD pipelines, infrastructure automation, and containerized deployments using Docker and GitHub Actions}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------TECHNOLOGY STACK-----------
+\section{Technology Stack}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: JavaScript, TypeScript, Python, Golang, C++, PHP, HTML5, CSS3} \\
+     \textbf{Frontend Frameworks}{: React.js, Next.js, Vue.js, Angular, Redux, Zustand} \\
+     \textbf{Backend Technologies}{: Node.js, Express.js, Django, FastAPI, NestJS, Laravel, RESTful APIs, GraphQL, gRPC} \\
+     \textbf{Mobile Development}{: React Native, Flutter, Native iOS/Android development} \\
+     \textbf{AI \& Machine Learning}{: TensorFlow, OpenAI API, Scikit-learn, Computer Vision, Llava, VAPI, Prompt Engineering} \\
+     \textbf{Cloud \& DevOps}{: AWS, Azure, Google Cloud, Docker, Kubernetes, Terraform, CI/CD Automations, GitHub Actions, Circle CI} \\
+     \textbf{Databases}{: PostgreSQL, MongoDB, MySQL, Redis, Firebase, Elasticsearch, Kafka} \\
+     \textbf{Architecture \& Systems}{: Microservices Architecture, Distributed \& Isolated Systems, Event-Driven Systems, API Driven Systems} \\
+     \textbf{IoT \& Hardware}{: Arduino, Raspberry Pi, Embedded C++, Real-time communication} \\
+     \textbf{Development Tools}{: Git, GitHub Actions, Jenkins, Jira, Figma, VS Code, Infrastructure as Code (IaC)} \\
+    }}
+ \end{itemize}
+
+%-----------WHY CHOOSE US-----------
+\section{Why Choose Sadel Technologies}
+  \resumeItemListStart
+    \resumeItem{\textbf{AI-First Approach}: Pioneer in integrating artificial intelligence into business solutions, delivering 25\% improvement in operational efficiency}
+    \resumeItem{\textbf{Proven Scale}: Successfully deployed systems serving 100K+ users with 99.9\% uptime across multiple industries}
+    \resumeItem{\textbf{Cloud Expertise}: Advanced cloud architecture capabilities reducing infrastructure costs by 35\% through containerization and auto-scaling}
+    \resumeItem{\textbf{Cross-Industry Experience}: Deep domain knowledge in healthcare, fintech, e-commerce, and utility sectors}
+    \resumeItem{\textbf{Expert Team}: Senior engineers with proven track records at leading technology companies including startup and enterprise environments}
+    \resumeItem{\textbf{End-to-End Delivery}: Complete project lifecycle management from concept to deployment and ongoing maintenance}
+    \resumeItem{\textbf{Agile Methodology}: Fast, iterative development with continuous integration and deployment practices}
+    \resumeItem{\textbf{Innovation Focus}: Continuous research and development in emerging technologies including multimodal AI, voice technology, and distributed systems}
+  \resumeItemListEnd
+
+%-----------KEY CLIENTS & PROJECTS-----------
+\section{Key Clients \& Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Multi-State Healthcare Management Systems}}{2023 -- Present}
+          \resumeItemListStart
+            \resumeItem{\textbf{Katsina State Hospital}: Comprehensive digital transformation of state hospital operations with AI-powered patient management}
+            \resumeItem{\textbf{Maiduguri Medical Center}: Cloud-native healthcare platform handling 50K+ daily patient transactions}
+            \resumeItem{\textbf{Abuja Health Authority}: Enterprise-grade system integration with automated diagnostics and resource allocation}
+            \resumeItem{\textbf{Crown Jewel HMO}: Complete health management organization digitization with real-time analytics and reporting}
+            \resumeItem{\textbf{Impact}: Reduced diagnostic errors by 25\%, improved patient satisfaction by 40\%, and achieved 99.9\% system uptime}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{OneByOne -- Scholarship \& Mentorship Platform}}{2023 -- Present}
+          \resumeItemListStart
+            \resumeItem{Developed a personalized scholarship and mentorship platform supporting underprivileged students with funding and career guidance, one person at a time.}
+            \resumeItem{Designed AI-driven matching algorithms to align sponsor requirements with student profiles for optimal scholarship allocation.}
+            \resumeItem{Built a scalable, user-centric web platform capable of managing thousands of concurrent scholarship and mentorship interactions.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{EZYGPS - IoT Location Sharing Platform}}{2023}
+          \resumeItemListStart
+            \resumeItem{Developed innovative cross-platform mobile application with hardware integration capabilities}
+            \resumeItem{Implemented real-time location sharing with Google Maps API and Arduino-based IoT components}
+            \resumeItem{Created seamless communication between mobile applications and embedded hardware systems}
+            \resumeItem{Delivered complete solution combining software engineering with IoT device programming in C++}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Enterprise Fintech Solutions}}{2023}
+          \resumeItemListStart
+            \resumeItem{Sterling Technologies: Built high-security financial trading platforms with real-time data synchronization}
+            \resumeItem{Dannon Financial: Developed scalable fintech applications with advanced performance optimization}
+            \resumeItem{Implemented OAuth 2.0, JWT authentication, and PCI DSS compliance across all financial solutions}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{LetMeIn Access Management Platform}}{2022 -- Present}
+          \resumeItemListStart
+            \resumeItem{Developed a comprehensive visitor and access management system for residential and corporate facilities.}
+            \resumeItem{Established a virtual security network connecting estate administrators, security personnel, and residents or occupants.}
+            \resumeItem{Implemented real-time access logs with role-based permissions to enhance safety, transparency, and operational efficiency.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Product Design \& Innovation}}{2016 -- 2020}
+          \resumeItemListStart
+            \resumeItem{Designed and developed enclosures for various electronic products, creating CAD models later 3D-printed for prototyping and production.}
+            \resumeItem{Collaborated on user experience design for multiple electronic products, integrating usability principles into product development.}
+            \resumeItem{Co-developed software for supporting smart home device deployment.}
+            \resumeItem{Secured a Nigerian patent for a smart insecticide spray.}
+            \resumeItem{Co-designed and developed a patented Smart-Bag for tracking examination materials in transit (global patent).}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------CONTACT INFORMATION-----------
+\section{Contact Information}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Address}{: Lagos, Nigeria} \\
+     \textbf{Email}{: \href{mailto:info@sadeltech.com}{info@sadeltech.com}} \\
+     \textbf{Phone}{: +234 816 541 3816} \\
+     \textbf{Website}{: \href{https://sadeltech.com}{www.sadeltech.com}} \\
+     \textbf{GitHub}{: \href{https://github.com/sadeltech}{github.com/sadeltech}} \\
+     \textbf{LinkedIn}{: \href{https://linkedin.com/company/sadeltech}{linkedin.com/company/sadeltech}} \\
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}
