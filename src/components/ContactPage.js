@@ -37,8 +37,8 @@ const ContactPage = () => {
     {
       icon: <Mail size={24} className="text-blue-600" />,
       title: 'Email Us',
-      info: 'info@sadeltech.com',
-      action: 'mailto:info@sadeltech.com'
+      info: 'enquiries@sadeltech.com.ng',
+      action: 'mailto:enquiries@sadeltech.com.ng'
     },
     {
       icon: <Phone size={24} className="text-blue-600" />,
