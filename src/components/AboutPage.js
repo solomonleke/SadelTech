@@ -8,30 +8,6 @@ export default function AboutPage() {
 
   const team = [
     {
-      name: "Ahmed Hassan",
-      role: "Chief Technology Officer (CTO)",
-      bio: "Over 15 years of experience in software architecture, team leadership, and scaling enterprise solutions.",
-      image: "/api/placeholder/300/400",
-    },
-    {
-      name: "Sarah Chen",
-      role: "Lead Frontend Developer",
-      bio: "Specialist in React, Next.js, and building pixel-perfect, responsive interfaces.",
-      image: "/api/placeholder/300/400",
-    },
-    {
-      name: "Michael Rodriguez",
-      role: "DevOps Engineer",
-      bio: "Expert in cloud infrastructure, CI/CD pipelines, and deployment automation.",
-      image: "/api/placeholder/300/400",
-    },
-    {
-      name: "Emily Johnson",
-      role: "UI/UX Designer",
-      bio: "Passionate about designing intuitive user experiences with a focus on accessibility and aesthetics.",
-      image: "/api/placeholder/300/400",
-    },
-    {
       name: "Adeleke Segun",
       role: "Project Manager & Consultant",
       bio: "Experienced in managing cross-functional teams and delivering projects on time and on budget.",
