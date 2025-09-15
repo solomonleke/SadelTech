@@ -9,28 +9,70 @@ export default function AboutPage() {
   const team = [
     {
       name: "Ahmed Hassan",
-      role: "Chief Technology Officer",
-      image: "/api/placeholder/300/300",
-      bio: "10+ years in full-stack development and system architecture"
+      role: "Chief Technology Officer (CTO)",
+      bio: "Over 15 years of experience in software architecture, team leadership, and scaling enterprise solutions.",
+      image: "/api/placeholder/300/400",
     },
     {
       name: "Sarah Chen",
-      role: "Frontend Team Lead", 
-      image: "/api/placeholder/300/300",
-      bio: "UI/UX expert with a passion for creating seamless user experiences"
+      role: "Lead Frontend Developer",
+      bio: "Specialist in React, Next.js, and building pixel-perfect, responsive interfaces.",
+      image: "/api/placeholder/300/400",
     },
     {
-      name: "Marcus Rodriguez",
-      role: "Backend Architect",
-      image: "/api/placeholder/300/300", 
-      bio: "Specializes in scalable cloud infrastructure and API design"
+      name: "Michael Rodriguez",
+      role: "DevOps Engineer",
+      bio: "Expert in cloud infrastructure, CI/CD pipelines, and deployment automation.",
+      image: "/api/placeholder/300/400",
     },
     {
-      name: "Lisa Wong",
-      role: "Product Designer",
-      image: "/api/placeholder/300/300",
-      bio: "Design thinking advocate focused on human-centered solutions"
-    }
+      name: "Emily Johnson",
+      role: "UI/UX Designer",
+      bio: "Passionate about designing intuitive user experiences with a focus on accessibility and aesthetics.",
+      image: "/api/placeholder/300/400",
+    },
+    {
+      name: "Adeleke Segun",
+      role: "Project Manager & Consultant",
+      bio: "Experienced in managing cross-functional teams and delivering projects on time and on budget.",
+      image: "/api/placeholder/300/400",
+    },
+    {
+      name: "Adeleke Solomon",
+      role: "Senior Software Engineer",
+      bio: "Full-stack engineer with a strong background in scalable web applications and performance optimization.",
+      image: "/api/placeholder/300/400",
+    },
+    {
+      name: "Egbugha Malachi",
+      role: "CTO & Senior Software Engineer",
+      bio: "Blends technical leadership with hands-on engineering to drive product innovation.",
+      image: "/api/placeholder/300/400",
+    },
+    {
+      name: "Adeleke Opeyemi",
+      role: "Product Manager",
+      bio: "Bridges business needs and technology by crafting clear product roadmaps and strategies.",
+      image: "/api/placeholder/300/400",
+    },
+    {
+      name: "Adeleke Femi",
+      role: "Backend Engineer",
+      bio: "Focused on building secure, scalable APIs and robust backend systems.",
+      image: "/api/placeholder/300/400",
+    },
+    {
+      name: "Adeleke Paul",
+      role: "Team Member",
+      bio: "Passionate about learning and contributing to innovative projects as part of the engineering team.",
+      image: "/api/placeholder/300/400",
+    },
+    {
+      name: "Adeleke Ifeoluwa",
+      role: "Team Member",
+      bio: "Dedicated to improving system reliability and writing clean, maintainable code.",
+      image: "/api/placeholder/300/400",
+    },
   ];
 
   const values = [

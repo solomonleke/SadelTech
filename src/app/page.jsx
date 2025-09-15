@@ -91,10 +91,6 @@ export default function HomePage() {
                   View Our Work
                   <ArrowRight size={20} />
                 </a>
-                <button className={`${theme.text.primary} border-2 border-gray-300 dark:border-gray-600 px-8 py-4 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-all duration-300 font-medium flex items-center gap-2 justify-center`}>
-                  <Play size={20} />
-                  Watch Demo
-                </button>
               </div>
             </div>
 
